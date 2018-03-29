@@ -8,18 +8,11 @@ def get_first_name_of_season_winner(data, season)
           if key == "status" && value == "Winner"
             winnerFullName = dataHash["name"]
             winnerFirstName = winnerFullName.split[0]
-
-
-
-
-
-
-  binding.pry
-end
-end
-end
-end
-end
+          end
+        end
+      end
+    end
+  end
 end
 
 def get_contestant_name(data, occupation)
